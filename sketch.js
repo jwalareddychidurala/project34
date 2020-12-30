@@ -21,6 +21,7 @@ function draw() {
 background(46,139,87);
 if(keyWentDown(UP_ARROW)){
   writestock(foods);
+	dog.addImage(dogImage1);
 }
   drawSprites();
   //add styles here
